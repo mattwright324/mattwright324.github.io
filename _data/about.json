@@ -1,0 +1,62 @@
+{
+  "profiles": [
+    {
+      "title": "GitHub",
+      "thumb": "https://github.com/favicon.ico",
+      "link" : "https://github.com/mattwright324"
+    },{
+      "title": "StackOverflow",
+      "thumb": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
+      "link" : "hhttps://stackoverflow.com/users/2650847/matthew-wright"
+    },{
+      "title": "LinkedIn",
+      "thumb": "https://www.linkedin.com/favicon.ico",
+      "link" : "https://www.linkedin.com/in/mattwright324/"
+    }
+  ],
+  "apps": [
+    {
+      "title": "hashID",
+      "desc" : "Web-version of the original python tool built with GitHub Pages. Identify hash types and share results without having to install python.",
+      "thumb": "https://mattwright324.github.io/hashID/img/icon.png",
+      "link" : "https://mattwright324.github.io/hashID/",
+      "repo" : "https://github.com/mattwright324/hashID"
+    },{
+      "title": "YouTube Geofind",
+      "desc" : "Web-app to find geo-tagged YouTube videos by channel uploads, topic, and any location you choose. Over 80,000 visitors.",
+      "thumb": "https://mattwright324.github.io/youtube-geofind/img/icon.png",
+      "link" : "https://mattwright324.github.io/youtube-geofind/location",
+      "repo" : "https://github.com/mattwright324/youtube-geofind"
+    },{
+      "title": "Paint.NET Plugin Index",
+      "desc" : "Web-app to search and discover plugins in the Paint.NET forums. Built and collaborated with Scott Stringer. Currently embedded within the Paint.NET forums under Scott Stringer's plugin index post.",
+      "thumb": "https://mattwright324.github.io/pdn-plugin-index/img/icon.png",
+      "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
+      "repo" : "https://github.com/mattwright324/pdn-plugin-index"
+    },{
+      "title": "YouTube Comment Suite",
+      "desc" : "JavaFX desktop-app to download comments across all videos on entire channels stored in a database for easy searching.",
+      "thumb": "https://github.com/mattwright324/youtube-comment-suite/raw/master/src/mattw/youtube/commentsuite/img/icon.png",
+      "link" : "https://github.com/mattwright324/youtube-comment-suite/",
+      "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
+    },{
+      "title": "JExplorer",
+      "desc" : "JavaFX desktop-app that combines file traversal of the local system with SMB and FTP network drive scanning.",
+      "thumb": "https://github.com/mattwright324/jexplorer/raw/master/src/mattw/jexplorer/img/icon.png",
+      "link" : "https://github.com/mattwright324/jexplorer",
+      "repo" : "https://github.com/mattwright324/jexplorer"
+    },{
+      "title": "Windows SMB Cracker",
+      "desc" : "JavaFX desktop-app that provides remote password bruteforcing of smb-enabled Windows machines.",
+      "thumb": "https://github.com/mattwright324/windows-smb-cracker/raw/master/src/mattw/cracker/smb/img/icon2.png",
+      "link" : "https://github.com/mattwright324/windows-smb-cracker",
+      "repo" : "https://github.com/mattwright324/windows-smb-cracker"
+    },{
+      "title": "Perry Co. R.R. & N&SV R.R. Geodata",
+      "desc" : "QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA. Data files from the project provided for download.",
+      "thumb": "https://www.qgis.org/en/_static/images/favicon.ico",
+      "link" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata",
+      "repo" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata"
+    }
+  ]
+}

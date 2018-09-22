@@ -1,0 +1,27 @@
+#profiles a {
+    text-decoration: none;
+}
+#profiles a:hover {
+    text-decoration: none;
+}
+#apps a, #profiles a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.app-thumb {
+    width: 64px;
+    height: 64px;
+    margin-right: 1em;
+}
+.profile-thumb {
+    height: 32px;
+    width: 32px;
+}
+footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: gray;
+}
+footer a {
+    color: white;
+}

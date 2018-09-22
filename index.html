@@ -1,0 +1,65 @@
+---
+layout: default
+title: mattwright324.github.io
+---
+<div class="bg-primary">
+    <div class="container">
+        <br>
+        <h2 style="color:white">{{ page.title }}</h2>
+        <br>
+    </div>
+</div>
+<div class="bg-secondary">
+    <div class="container">
+        <br>
+        <p style="color:white">
+            My name is Matthew Wright and I have a bachelors in Information Technology
+            and I currently work full time as an associate application developer. I enjoy working on apps
+            that make life easier for me and others based on my interests: YouTube, Paint.NET, security, and history.
+        </p>
+        <br>
+    </div>
+</div>
+<div class="container">
+    <br>
+    <p>
+        <span style="font-size:1.3em">
+            Check out some of my apps:
+        </span>
+    </p>
+    <div id="apps">
+        <div class="card">
+            <ul class="list-group list-group-flush">
+                {% assign apps = site.data.about.apps %}
+                {% for app in apps %}
+                <li class="list-group-item d-flex">
+                    <a target="_blank" href="{{app.link}}">
+                    <img src="{{app.thumb}}" class="app-thumb" />
+                    <div class="d-flex flex-column" align="left">
+                        <h5>{{app.title}}</h5></a>
+                        <span style="margin-left:5px;margin-bottom:10px;">{{app.desc}}</span>
+                        <div>
+                            <a target="_blank" href="{{app.repo}}" class="btn btn-dark">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+<footer>
+    <div align="center">
+        <div id="profiles" align="center">
+            {% assign profiles = site.data.about.profiles %}
+            {% for profile in profiles %}
+            <a target="_blank" href="{{ profile.link }}">
+                {{ profile.title }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</footer>
