@@ -1,2 +1,3 @@
 # mattwright324.github.io
-Personal website and blog.
+Personal website.
+* https://mattwright324.github.io/
