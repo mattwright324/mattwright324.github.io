@@ -7,7 +7,7 @@
     },{
       "title": "StackOverflow",
       "thumb": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
-      "link" : "hhttps://stackoverflow.com/users/2650847/matthew-wright"
+      "link" : "https://stackoverflow.com/users/2650847/matthew-wright"
     },{
       "title": "LinkedIn",
       "thumb": "https://www.linkedin.com/favicon.ico",
@@ -17,7 +17,7 @@
   "apps": [
     {
       "title": "hashID",
-      "desc" : "Web-version of the original python tool built with GitHub Pages. Identify hash types and share results without having to install python.",
+      "desc" : "Web-app based off the original python tool. Identify hash types and share results without having to install python.",
       "thumb": "https://mattwright324.github.io/hashID/img/icon.png",
       "link" : "https://mattwright324.github.io/hashID/",
       "repo" : "https://github.com/mattwright324/hashID"
@@ -29,7 +29,7 @@
       "repo" : "https://github.com/mattwright324/youtube-geofind"
     },{
       "title": "Paint.NET Plugin Index",
-      "desc" : "Web-app to search and discover plugins in the Paint.NET forums. Built and collaborated with Scott Stringer. Currently embedded within the Paint.NET forums under Scott Stringer's plugin index post.",
+      "desc" : "Web-app to search and discover plugins in the Paint.NET forums. Built with collaboration from Scott Stringer. Currently embedded within the Paint.NET forums under Scott Stringer's plugin index post.",
       "thumb": "https://mattwright324.github.io/pdn-plugin-index/img/icon.png",
       "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
