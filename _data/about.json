@@ -18,19 +18,19 @@
     {
       "title": "hashID",
       "desc" : "Web-app based off the original python tool. Identify hash types and share results without having to install python.",
-      "thumb": "https://mattwright324.github.io/hashID/img/icon.png",
-      "link" : "https://mattwright324.github.io/hashID/",
+      "thumb": "https://mattw.io/hashID/img/icon.png",
+      "link" : "https://mattw.io/hashID/",
       "repo" : "https://github.com/mattwright324/hashID"
     },{
       "title": "YouTube Geofind",
       "desc" : "Web-app to find geo-tagged YouTube videos by channel uploads, topic, and any location you choose. Over 80,000 visitors.",
-      "thumb": "https://mattwright324.github.io/youtube-geofind/img/icon.png",
-      "link" : "https://mattwright324.github.io/youtube-geofind/location",
+      "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
+      "link" : "https://mattw.io/youtube-geofind/location",
       "repo" : "https://github.com/mattwright324/youtube-geofind"
     },{
       "title": "Paint.NET Plugin Index",
       "desc" : "Web-app to search and discover plugins in the Paint.NET forums. Built with collaboration from Scott Stringer. Currently embedded within the Paint.NET forums under Scott Stringer's plugin index post.",
-      "thumb": "https://mattwright324.github.io/pdn-plugin-index/img/icon.png",
+      "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
       "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
