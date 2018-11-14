@@ -1,3 +1,3 @@
-# mattwright324.github.io
+# mattw.io
 Personal website.
-* https://mattwright324.github.io/
+* https://mattw.io/
