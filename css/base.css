@@ -25,3 +25,40 @@ footer {
 footer a {
     color: white;
 }
+
+body {
+    background-image: url("/img/bg_gray.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+.section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.app {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+.tag {
+    color: white;
+    background-color: rgba(30,70,220,0.5);
+    border-radius: 2px;
+    margin-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0.25em;
+    cursor: default;
+    opacity: 0.6;
+}
+.tag:hover {
+    box-shadow: 1px 1px 3px grey;
+    opacity: 1;
+}
+.tag.gh-tag {
+    background-color: rgba(220,30,70,0.5);
+}
+.tag a {
+    color: white;
+}

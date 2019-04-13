@@ -16,44 +16,58 @@
   ],
   "apps": [
     {
-      "title": "hashID",
-      "desc" : "Web-app based off the original python tool. Identify hash types and share results without having to install python.",
-      "thumb": "https://mattw.io/hashID/img/icon.png",
-      "link" : "https://mattw.io/hashID/",
-      "repo" : "https://github.com/mattwright324/hashID"
-    },{
       "title": "YouTube Geofind",
-      "desc" : "Web-app to find geo-tagged YouTube videos by channel uploads, topic, and any location you choose. Over 80,000 visitors.",
+      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 100,000 unique visitors</em>",
+      "tags" : ["web-app", "youtube", "gis"],
+      "hist" : "Nov. 2017 - Present",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
       "link" : "https://mattw.io/youtube-geofind/location",
       "repo" : "https://github.com/mattwright324/youtube-geofind"
     },{
       "title": "Paint.NET Plugin Index",
-      "desc" : "Web-app to search and discover plugins in the Paint.NET forums. Built with collaboration from Scott Stringer. Currently embedded within the Paint.NET forums under Scott Stringer's plugin index post.",
+      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 40,000 unique visitors</em>",
+      "tags" : ["web-app", "paint.net", "data"],
+      "hist" : "Dec. 2017 - Present",
       "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
       "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "YouTube Comment Suite",
-      "desc" : "JavaFX desktop-app to download comments across all videos on entire channels stored in a database for easy searching.",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 250 downloads</em>",
+      "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator"],
+      "hist" : "Dec. 2016 - Present",
       "thumb": "https://github.com/mattwright324/youtube-comment-suite/raw/master/src/mattw/youtube/commentsuite/img/icon.png",
       "link" : "https://github.com/mattwright324/youtube-comment-suite/",
       "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
     },{
+      "title": "hashID",
+      "desc" : "Created to make it easier to determine hash types on the go without requiring the installation of Python.",
+      "tags" : ["web-app", "security", "hashes"],
+      "hist" : "Sept. 2018",
+      "thumb": "https://mattw.io/hashID/img/icon.png",
+      "link" : "https://mattw.io/hashID/",
+      "repo" : "https://github.com/mattwright324/hashID"
+    },{
       "title": "JExplorer",
-      "desc" : "JavaFX desktop-app that combines file traversal of the local system with SMB and FTP network drive scanning.",
+      "desc" : "Created to make it easier to connect to multiple machines on a network managed with the same network user and browse the system file contents. Checks against SMB and FTP with supplied network range and credentials.",
+      "tags" : ["desktop-app", "javafx","security", "file-explorer"],
+      "hist" : "Aug. 2017",
       "thumb": "https://github.com/mattwright324/jexplorer/raw/master/src/mattw/jexplorer/img/icon.png",
       "link" : "https://github.com/mattwright324/jexplorer",
       "repo" : "https://github.com/mattwright324/jexplorer"
     },{
       "title": "Windows SMB Cracker",
-      "desc" : "JavaFX desktop-app that provides remote password bruteforcing of smb-enabled Windows machines.",
+      "desc" : "Created to remotely bruteforce logins on smb-enabled Windows machines. Successfully cracked an old forgotten 10-year-old machine in college.",
+      "tags" : ["desktop-app", "javafx","security", "samba", "cifs"],
+      "hist" : "Dec. 2017",
       "thumb": "https://github.com/mattwright324/windows-smb-cracker/raw/master/src/mattw/cracker/smb/img/icon2.png",
       "link" : "https://github.com/mattwright324/windows-smb-cracker",
       "repo" : "https://github.com/mattwright324/windows-smb-cracker"
     },{
       "title": "Perry Co. R.R. & N&SV R.R. Geodata",
-      "desc" : "QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA. Data files from the project provided for download.",
+      "desc" : "QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA. Data files from the project provided for download. Cropped and geo-referenced aerial photography from the 1930s using Paint.NET and QGIS against present day Google Maps and like features.",
+      "tags" : ["mapping", "data", "gis", "qgis"],
+      "hist" : "Apr. 2018",
       "thumb": "https://www.qgis.org/en/_static/images/favicon.ico",
       "link" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata",
       "repo" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata"
