@@ -33,7 +33,7 @@
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "YouTube Comment Suite",
-      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 250 downloads</em>",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 300 downloads</em>",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator"],
       "hist" : "Dec. 2016 - Present",
       "thumb": "https://github.com/mattwright324/youtube-comment-suite/raw/master/src/mattw/youtube/commentsuite/img/icon.png",
