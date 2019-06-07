@@ -36,7 +36,7 @@
       "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 300 downloads</em>",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator"],
       "hist" : "Dec. 2016 - Present",
-      "thumb": "https://github.com/mattwright324/youtube-comment-suite/raw/master/src/mattw/youtube/commentsuite/img/icon.png",
+      "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
       "link" : "https://github.com/mattwright324/youtube-comment-suite/",
       "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
     },{
