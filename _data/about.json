@@ -22,7 +22,25 @@
       "hist" : "Nov. 2017 - Present",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
       "link" : "https://mattw.io/youtube-geofind/location",
-      "repo" : "https://github.com/mattwright324/youtube-geofind"
+      "repo" : "https://github.com/mattwright324/youtube-geofind",
+      "media": [
+        {
+          "link": "https://www.youtube.com/watch?v=Cd1H7q9VOlA&t=3m48s",
+          "title": "(YouTube) D!NG: Slowest Progress Bars On The Internet!, 2017"
+        },{
+          "link": "https://medium.com/week-in-osint/week-in-osint-2019-26-a836f3069bff",
+          "title": "(Medium.com) Week in OSINT #2019-26"
+        },{
+          "link": "https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#heading=h.19f12xc3z663",
+          "title": "(Bellingcat) Online Investigation Toolkit > YouTube, 2019"
+        },{
+          "link": "https://www.bellingcat.com/news/2019/08/28/saudi-arabia-murky-european-weapons-transfers-to-janjaweed-successor-group/",
+          "title": "(Bellingcat) Saudi Arabia & Murky European Weapons Transfers To Janjaweed Successor Group, 2019"
+        },{
+          "link": "https://www.googlewatchblog.de/2019/10/youtube-geofind-suchmaschine-videos/",
+          "title": "(GoogleWatchBlog.de) YouTube Geofind: Search engine finds videos and livestreams near or at any location, 2019"
+        }
+      ]
     },{
       "title": "Paint.NET Plugin Index",
       "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 40,000 unique visitors</em>",
@@ -33,7 +51,7 @@
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "YouTube Comment Suite",
-      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 500 downloads</em>",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 700 downloads</em>",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator"],
       "hist" : "Dec. 2016 - Present",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",

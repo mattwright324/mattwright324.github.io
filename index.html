@@ -80,6 +80,17 @@ title  : mattw.io
                     <div class="row" style="margin-bottom:0.5rem;">
                         {{app.desc}}
                     </div>
+                    {% if app.media %}
+                    <ul>
+                        {% for media_link in app.media %}
+                        <li>
+                            <a target="_blank" href="{{media_link.link}}">
+                                {{media_link.title}}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
                     <div class="row text-right">
                         <span class="tag gh-tag"><a href="{{app.repo}}">view on github</a></span>
                         {% for tag in app.tags %}
