@@ -1,21 +1,20 @@
 body {
-    background-image: url("/img/bg_gray.png");
+    background-image: url(../img/noise.png);
     background-repeat: repeat;
-    height: 100%;
+    background-position: center;
 }
-.section {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+
+h1, h2, h3, h4 {
+    color: white;
+    background-image: url(../img/cool-background.png);
+    padding-left: 4%;
+    border-radius: 10px;
+    background-position: center;
 }
-.app {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: white;
-    margin-bottom: 1rem;
-}
+
 .tag {
     color: white;
-    background-color: rgba(30,70,220,0.5);
+    background-color: rgba(30, 70, 220, 0.5);
     border-radius: 2px;
     margin-right: 5px;
     padding-left: 8px;
@@ -24,13 +23,32 @@ body {
     cursor: default;
     opacity: 0.6;
 }
+
 .tag:hover {
     box-shadow: 1px 1px 3px grey;
     opacity: 1;
 }
+
 .tag.gh-tag {
-    background-color: rgba(220,30,70,0.5);
+    background-color: rgba(220, 30, 70, 0.5);
 }
+
 .tag a {
     color: white;
+}
+
+.mt-5 {
+    margin-top: 5%;
+}
+
+.mb-5 {
+    margin-bottom: 5%;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.simple-a {
+    text-decoration: none;
 }
