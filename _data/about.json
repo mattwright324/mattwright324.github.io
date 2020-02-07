@@ -59,7 +59,7 @@
       "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
     },{
       "title": "YouTube Metadata",
-      "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provider useful processing of dates, country codes, language codes, geolocation, and more.",
+      "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
       "hist" : "Jan. 2020",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
