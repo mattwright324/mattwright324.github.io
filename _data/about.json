@@ -17,7 +17,7 @@
   "apps": [
     {
       "title": "YouTube Geofind",
-      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 125,000 unique visitors</em>",
+      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 145,000 unique visitors</em>",
       "tags" : ["web-app", "youtube", "gis", "osint"],
       "hist" : "Nov. 2017 - Present",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
@@ -43,7 +43,7 @@
       ]
     },{
       "title": "Paint.NET Plugin Index",
-      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 50,000 unique visitors</em>",
+      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 75,000 unique visitors</em>",
       "tags" : ["web-app", "paint.net", "data"],
       "hist" : "Dec. 2017 - Present",
       "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
@@ -51,7 +51,7 @@
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "YouTube Comment Suite",
-      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 900 downloads</em>",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 2000 downloads</em>",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
       "hist" : "Dec. 2016 - Present",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
