@@ -17,9 +17,9 @@
   "apps": [
     {
       "title": "YouTube Geofind",
-      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 145,000 unique visitors</em>",
+      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 150,000 unique visitors</em>",
       "tags" : ["web-app", "youtube", "gis", "osint"],
-      "hist" : "Nov. 2017 - Present",
+      "hist" : "Nov 2017 - Present",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
       "link" : "https://mattw.io/youtube-geofind/location",
       "repo" : "https://github.com/mattwright324/youtube-geofind",
@@ -43,17 +43,17 @@
       ]
     },{
       "title": "Paint.NET Plugin Index",
-      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 75,000 unique visitors</em>",
+      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 80,000 unique visitors</em>",
       "tags" : ["web-app", "paint.net", "data"],
-      "hist" : "Dec. 2017 - Present",
+      "hist" : "Dec 2017 - Present",
       "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
       "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "YouTube Comment Suite",
-      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 2000 downloads</em>",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 2,500 downloads</em>",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
-      "hist" : "Dec. 2016 - Present",
+      "hist" : "Dec 2016 - Present",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
       "link" : "https://github.com/mattwright324/youtube-comment-suite/",
       "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
@@ -61,7 +61,7 @@
       "title": "YouTube Metadata",
       "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
-      "hist" : "Jan. 2020",
+      "hist" : "Jan 2020 - Present",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
       "link" : "https://mattw.io/youtube-metadata/",
       "repo" : "https://github.com/mattwright324/youtube-metadata/"
@@ -69,7 +69,7 @@
       "title": "Bad Interface",
       "desc" : "A collection of horrible user input implementations inspired by r/badUIbattles. Bad birthdate, phone, volume, etc...",
       "tags" : ["web-app"],
-      "hist" : "Dec. 2019 - Present",
+      "hist" : "Dec 2019",
       "thumb": "https://mattw.io/bad-ui/favicon.png",
       "link" : "https://mattw.io/bad-ui/",
       "repo" : "https://github.com/mattwright324/bad-ui/"
@@ -77,7 +77,7 @@
       "title": "hashID",
       "desc" : "Created to make it easier to determine hash types on the go without requiring the installation of Python.",
       "tags" : ["web-app", "security", "hashes"],
-      "hist" : "Sept. 2018",
+      "hist" : "Sept 2018",
       "thumb": "https://mattw.io/hashID/img/icon.png",
       "link" : "https://mattw.io/hashID/",
       "repo" : "https://github.com/mattwright324/hashID"
@@ -85,7 +85,7 @@
       "title": "JExplorer",
       "desc" : "Created to make it easier to connect to multiple machines on a network managed with the same network user and browse the system file contents. Checks against SMB and FTP with supplied network range and credentials.",
       "tags" : ["desktop-app", "javafx","security", "file-explorer"],
-      "hist" : "Aug. 2017",
+      "hist" : "Aug 2017",
       "thumb": "https://github.com/mattwright324/jexplorer/raw/master/src/mattw/jexplorer/img/icon.png",
       "link" : "https://github.com/mattwright324/jexplorer",
       "repo" : "https://github.com/mattwright324/jexplorer"
@@ -93,7 +93,7 @@
       "title": "Windows SMB Cracker",
       "desc" : "Created to remotely bruteforce logins on smb-enabled Windows machines. Successfully cracked an old forgotten 10-year-old machine in college.",
       "tags" : ["desktop-app", "javafx","security", "samba", "cifs"],
-      "hist" : "Dec. 2017",
+      "hist" : "Dec 2017",
       "thumb": "https://github.com/mattwright324/windows-smb-cracker/raw/master/src/mattw/cracker/smb/img/icon2.png",
       "link" : "https://github.com/mattwright324/windows-smb-cracker",
       "repo" : "https://github.com/mattwright324/windows-smb-cracker"
@@ -101,8 +101,8 @@
       "title": "Perry Co. R.R. & N&SV R.R. Geodata",
       "desc" : "QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA. Data files from the project provided for download. Cropped and geo-referenced aerial photography from the 1930s using Paint.NET and QGIS against present day Google Maps and like features.",
       "tags" : ["mapping", "data", "gis", "qgis"],
-      "hist" : "Apr. 2018",
-      "thumb": "https://www.qgis.org/en/_static/images/favicon.ico",
+      "hist" : "Apr 2018",
+      "thumb": "https://www.qgis.org/en/_static/logo.png",
       "link" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata",
       "repo" : "https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata"
     }
