@@ -17,54 +17,54 @@
   "apps": [
     {
       "title": "YouTube Geofind",
-      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords. Being used as a public resource by FirstTwo.com for law enforcement.<br><em>Over 150,000 unique visitors</em>",
+      "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords.",
       "tags" : ["web-app", "youtube", "gis", "osint"],
-      "hist" : "Nov 2017 - Present",
+      "hist" : "Nov 2017 - Present <span class='interlude'>•</span> + 175,000 unique visitors",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
       "link" : "https://mattw.io/youtube-geofind/location",
       "repo" : "https://github.com/mattwright324/youtube-geofind",
       "media": [
         {
-          "link": "https://www.youtube.com/watch?v=Cd1H7q9VOlA&t=3m48s",
-          "title": "(YouTube) D!NG: Slowest Progress Bars On The Internet!, 2017"
+          "link": "https://bit.ly/bcattools",
+          "title": "(Bellingcat) Online Investigation Toolkit > Social Media"
         },{
           "link": "https://medium.com/week-in-osint/week-in-osint-2019-26-a836f3069bff",
           "title": "(Medium.com) Week in OSINT #2019-26"
-        },{
-          "link": "https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit#heading=h.19f12xc3z663",
-          "title": "(Bellingcat) Online Investigation Toolkit > YouTube, 2019"
         },{
           "link": "https://www.bellingcat.com/news/2019/08/28/saudi-arabia-murky-european-weapons-transfers-to-janjaweed-successor-group/",
           "title": "(Bellingcat) Saudi Arabia & Murky European Weapons Transfers To Janjaweed Successor Group, 2019"
         },{
           "link": "https://www.googlewatchblog.de/2019/10/youtube-geofind-suchmaschine-videos/",
           "title": "(GoogleWatchBlog.de) YouTube Geofind: Search engine finds videos and livestreams near or at any location, 2019"
+        },{
+          "link": "https://www.youtube.com/watch?v=Cd1H7q9VOlA&t=3m48s",
+          "title": "(YouTube) D!NG: Slowest Progress Bars On The Internet!, 2017"
         }
       ]
-    },{
-      "title": "Paint.NET Plugin Index",
-      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.<br><em>Over 80,000 unique visitors</em>",
-      "tags" : ["web-app", "paint.net", "data"],
-      "hist" : "Dec 2017 - Present",
-      "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
-      "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
-      "repo" : "https://github.com/mattwright324/pdn-plugin-index"
-    },{
-      "title": "YouTube Comment Suite",
-      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.<br><em>Over 2,500 downloads</em>",
-      "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
-      "hist" : "Dec 2016 - Present",
-      "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
-      "link" : "https://github.com/mattwright324/youtube-comment-suite/",
-      "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
     },{
       "title": "YouTube Metadata",
       "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
-      "hist" : "Jan 2020 - Present",
+      "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 14,000 unique visitors",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
       "link" : "https://mattw.io/youtube-metadata/",
       "repo" : "https://github.com/mattwright324/youtube-metadata/"
+    },{
+      "title": "YouTube Comment Suite",
+      "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.",
+      "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
+      "hist" : "Dec 2016 - Present <span class='interlude'>•</span> + 4,000 downloads",
+      "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
+      "link" : "https://github.com/mattwright324/youtube-comment-suite/",
+      "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
+    },{
+      "title": "Paint.NET Plugin Index",
+      "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.",
+      "tags" : ["web-app", "paint.net", "data"],
+      "hist" : "Dec 2017 - Present <span class='interlude'>•</span> + 80,000 unique visitors",
+      "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
+      "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
+      "repo" : "https://github.com/mattwright324/pdn-plugin-index"
     },{
       "title": "Bad Interface",
       "desc" : "A collection of horrible user input implementations inspired by r/badUIbattles. Bad birthdate, phone, volume, etc...",
@@ -91,7 +91,7 @@
       "repo" : "https://github.com/mattwright324/jexplorer"
     },{
       "title": "Windows SMB Cracker",
-      "desc" : "Created to remotely bruteforce logins on smb-enabled Windows machines. Successfully cracked an old forgotten 10-year-old machine in college.",
+      "desc" : "Created to remotely bruteforce logins on smb-enabled Windows machines. Successfully cracked an old forgotten 10-year-old windows server in college.",
       "tags" : ["desktop-app", "javafx","security", "samba", "cifs"],
       "hist" : "Dec 2017",
       "thumb": "https://github.com/mattwright324/windows-smb-cracker/raw/master/src/mattw/cracker/smb/img/icon2.png",
