@@ -19,7 +19,7 @@
       "title": "YouTube Geofind",
       "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords.",
       "tags" : ["web-app", "youtube", "gis", "osint"],
-      "hist" : "Nov 2017 - Present <span class='interlude'>•</span> + 190,000 unique visitors",
+      "hist" : "Nov 2017 - Present <span class='interlude'>•</span> + 225,000 unique visitors",
       "thumb": "https://mattw.io/youtube-geofind/img/icon.png",
       "link" : "https://mattw.io/youtube-geofind/location",
       "repo" : "https://github.com/mattwright324/youtube-geofind",
@@ -45,10 +45,19 @@
       "title": "YouTube Metadata",
       "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
-      "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 24,000 unique visitors",
+      "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 27,000 unique visitors",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
       "link" : "https://mattw.io/youtube-metadata/",
       "repo" : "https://github.com/mattwright324/youtube-metadata/"
+      "media": [
+        {
+          "link": "https://bit.ly/bcattools",
+          "title": "(Bellingcat) Online Investigation Toolkit > Social Media"
+        },{
+          "link": "https://techjournalism.medium.com/trophy-hunting-open-data-exposes-ethics-problems-c5755f4580f3"
+          "title": "Trophy hunting: open-data exposes ethics problem"
+        }
+      ]
     },{
       "title": "YouTube Comment Suite",
       "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.",
