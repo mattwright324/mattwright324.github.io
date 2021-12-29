@@ -48,13 +48,13 @@
       "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 27,000 unique visitors",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
       "link" : "https://mattw.io/youtube-metadata/",
-      "repo" : "https://github.com/mattwright324/youtube-metadata/"
+      "repo" : "https://github.com/mattwright324/youtube-metadata/",
       "media": [
         {
           "link": "https://bit.ly/bcattools",
           "title": "(Bellingcat) Online Investigation Toolkit > Social Media"
         },{
-          "link": "https://techjournalism.medium.com/trophy-hunting-open-data-exposes-ethics-problems-c5755f4580f3"
+          "link": "https://techjournalism.medium.com/trophy-hunting-open-data-exposes-ethics-problems-c5755f4580f3",
           "title": "Trophy hunting: open-data exposes ethics problem"
         }
       ]
