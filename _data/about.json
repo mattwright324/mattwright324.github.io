@@ -45,7 +45,7 @@
       "title": "YouTube Metadata",
       "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
-      "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 27,000 unique visitors",
+      "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 140,000 unique visitors",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-metadata/master/img/icon.png",
       "link" : "https://mattw.io/youtube-metadata/",
       "repo" : "https://github.com/mattwright324/youtube-metadata/",
@@ -62,10 +62,19 @@
       "title": "YouTube Comment Suite",
       "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
-      "hist" : "Dec 2016 - Present <span class='interlude'>•</span> + 5,000 downloads",
+      "hist" : "Dec 2016 - Present <span class='interlude'>•</span> + 5,500 downloads",
       "thumb": "https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png",
       "link" : "https://github.com/mattwright324/youtube-comment-suite/",
-      "repo" : "https://github.com/mattwright324/youtube-comment-suite/"
+      "repo" : "https://github.com/mattwright324/youtube-comment-suite/",
+      "media": [
+        {
+          "link": "https://journals.sagepub.com/doi/abs/10.1177/1750481321989838",
+          "title": "(SAGE Journal) Negotiating social bonds in a YouTube internet hoax"
+        },{
+          "link": "https://bcuassets.blob.core.windows.net/docs/csu2021314-muslim-covid-report-a4-landscape-study-2-interactive-15-12-21-132844802573884723.pdf",
+          "title": "Covid-19: What are the Drivers of the Islamophobic Infodemic Communications on Social Media?"
+        }
+      ]
     },{
       "title": "Paint.NET Plugin Index",
       "desc" : "Created to make searching and discovering plugins for Paint.NET easier and quicker. Collaborated with Scott Stringer to retrofit into the forums, improve original design, and formatting his data to work with the app.",
