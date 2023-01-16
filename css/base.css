@@ -1,7 +1,6 @@
 body {
-    background-image: url(../img/noise.png);
-    background-repeat: repeat;
-    background-position: center;
+    background-color: rgb(34, 34, 34);
+    color: rgb(225, 225, 225);
 }
 
 h1, h2, h3, h4 {
@@ -14,14 +13,18 @@ h1, h2, h3, h4 {
 
 .tag {
     color: white;
-    background-color: rgba(30, 70, 220, 0.5);
+    background-color: cornflowerblue;
     border-radius: 2px;
     margin-right: 5px;
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 0.25em;
     cursor: default;
-    opacity: 0.6;
+    opacity: 0.8;
+}
+
+.tag a {
+    text-decoration: none;
 }
 
 .tag:hover {
@@ -30,7 +33,7 @@ h1, h2, h3, h4 {
 }
 
 .tag.gh-tag {
-    background-color: rgba(220, 30, 70, 0.5);
+    background-color: salmon;
 }
 
 .tag a {

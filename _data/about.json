@@ -1,19 +1,4 @@
 {
-  "profiles": [
-    {
-      "title": "GitHub",
-      "thumb": "https://github.com/favicon.ico",
-      "link" : "https://github.com/mattwright324"
-    },{
-      "title": "StackOverflow",
-      "thumb": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
-      "link" : "https://stackoverflow.com/users/2650847/matthew-wright"
-    },{
-      "title": "LinkedIn",
-      "thumb": "https://www.linkedin.com/favicon.ico",
-      "link" : "https://www.linkedin.com/in/mattwright324/"
-    }
-  ],
   "apps": [
     {
       "title": "YouTube Geofind",
@@ -83,6 +68,14 @@
       "thumb": "https://mattw.io/pdn-plugin-index/img/icon.png",
       "link" : "https://forums.getpaint.net/topic/15260-plugin-index/",
       "repo" : "https://github.com/mattwright324/pdn-plugin-index"
+    },{
+      "title": "Maps Let Loose",
+      "desc" : "Advanced custom tactical map builder, collection of map knowledge, and more for the game Hell Let Loose.",
+      "tags" : ["web-app", "hll", "hell let loose", "mapping"],
+      "hist" : "Sept 2022 - Present",
+      "thumb": "https://mattw.io/maps-let-loose/icon.png",
+      "link" : "https://mattw.io/maps-let-loose/",
+      "repo" : "https://github.com/mattwright324/maps-let-loose"
     },{
       "title": "Bad Interface",
       "desc" : "A collection of horrible user input implementations inspired by r/badUIbattles. Bad birthdate, phone, volume, etc...",
