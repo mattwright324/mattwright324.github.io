@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "title": "YouTube Geofind",
+      "title": "MW Geofind",
       "desc" : "Created to discover youtube videos based on location and later adapted to search videos by specific channels and topic keywords.",
       "tags" : ["web-app", "youtube", "gis", "osint"],
       "hist" : "Nov 2017 - Present <span class='interlude'>•</span> + 225,000 unique visitors",
@@ -27,7 +27,7 @@
         }
       ]
     },{
-      "title": "YouTube Metadata",
+      "title": "MW Metadata",
       "desc" : "Created to reveal everything about a video and it's channel that is available from the YouTube API. Provides useful processing of dates, country codes, language codes, geolocation, and more.",
       "tags" : ["web-app", "data-viewer", "osint"],
       "hist" : "Jan 2020 - Present <span class='interlude'>•</span>  + 40,000 unique visitors",
@@ -44,7 +44,7 @@
         }
       ]
     },{
-      "title": "YouTube Comment Suite",
+      "title": "MW Comment Suite",
       "desc" : "Created to download comments from every public upload from a channel to make it easier to find discussion based on certain topics. Now, given the climate for creators can also serve as a tool to archive comment history.",
       "tags" : ["desktop-app", "javafx","youtube", "data-viewer", "aggregator", "osint"],
       "hist" : "Dec 2016 - Present <span class='interlude'>•</span> + 5,500 downloads",
