@@ -1,10 +1,9 @@
 # Privacy
 
-Basic user data is stored/collected by Google Analytics and Plausible and is being used for monitoring traffic and referrals.
+Basic user data is stored/collected by Plausible and is being used for monitoring traffic and referrals.
 Data collected by these services is not being shared with any other parties. 
 This application does not allow third parties to serve advertisements.
 
-- http://www.google.com/policies/privacy
 - https://plausible.io/privacy
 
 ### MW Metadata

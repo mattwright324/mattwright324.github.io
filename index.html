@@ -1,84 +1,188 @@
 ---
-layout : default
-title  : mattw.io
 ---
-<div class="container">
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - mattw.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="kVPe1mQk0eWU7pB8HEwyAipAirlFDLe_hU-L0xmRwDA"/>
+    <link rel="icon" href="./img/icon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+
+    <!-- Analytics -->
+    <script defer data-domain="mattw.io" src="https://plausible.io/js/plausible.js"></script>
+    <style>
+        body {
+            font-family: "Nunito", sans-serif;
+            font-weight: 200;
+        }
+
+        nav {
+            background-image: url('/img/bg.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .navbar {
+            font-size: 1.5rem !important;
+        }
+
+        .navbar-brand {
+            font-size: 1.75rem !important;
+        }
+
+        .navbar-brand img {
+            width: 40px !important;
+            height: 40px !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./img/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            <span style="padding-left: .75rem;">mattw.io</span>
+        </a>
+    </div>
+</nav>
+<div class="container mb-3 mt-5">
     <div class="row">
-        <div id="about" class="column one-third mt-5">
-            <h4 style="background-position: bottom;">About</h4>
+        <div class="col-auto">
+            <h2>About</h2>
             <ul>
                 <li>Matthew Wright</li>
-                <li>Bachelors in I.T.</li>
+                <li>Bachelors in I.T., 2018</li>
                 <li>Software Developer</li>
-                <li>Interests include: YouTube, History, Security, Paint.NET</li>
             </ul>
-            <div class="columns twelve">
-                <h4 style="background-position: center;">Contact</h4>
-                <div class="u-full-width" style="display:flex;justify-content: space-around; vertical-align: middle;">
-                    <a class="simple-a" href="https://github.com/mattwright324">
-                        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill="white" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
-                    </a>
-                    <a class="simple-a" href="https://stackoverflow.com/users/2650847/matthew-wright">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="38" viewBox="0 0 120 120"><style>.st0{fill:#bcbbbb}.st1{fill:#f48023}</style><path class="st0" d="M84.4 93.8V70.6h7.7v30.9H22.6V70.6h7.7v23.2z"></path><path class="st1" d="M38.8 68.4l37.8 7.9 1.6-7.6-37.8-7.9-1.6 7.6zm5-18l35 16.3 3.2-7-35-16.4-3.2 7.1zm9.7-17.2l29.7 24.7 4.9-5.9-29.7-24.7-4.9 5.9zm19.2-18.3l-6.2 4.6 23 31 6.2-4.6-23-31zM38 86h38.6v-7.7H38V86z"></path></svg>
-                    </a>
-                    <a class="simple-a" href="https://www.linkedin.com/in/mattwright324/">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 431 431" version="1.1" id="Capa_1" x="0px" y="0px" style="enable-background:new 0 0 430.117 430.118;" xml:space="preserve">
-                            <g><path id="LinkedIn__x28_alt_x29_" style="fill:#0077B5" d="M398.355,0H31.782C14.229,0,0.002,13.793,0.002,30.817v368.471   c0,17.025,14.232,30.83,31.78,30.83h366.573c17.549,0,31.76-13.814,31.76-30.83V30.817C430.115,13.798,415.904,0,398.355,0z    M130.4,360.038H65.413V165.845H130.4V360.038z M97.913,139.315h-0.437c-21.793,0-35.92-14.904-35.92-33.563   c0-19.035,14.542-33.535,36.767-33.535c22.227,0,35.899,14.496,36.331,33.535C134.654,124.415,120.555,139.315,97.913,139.315z    M364.659,360.038h-64.966V256.138c0-26.107-9.413-43.921-32.907-43.921c-17.973,0-28.642,12.018-33.327,23.621   c-1.736,4.144-2.166,9.94-2.166,15.728v108.468h-64.954c0,0,0.85-175.979,0-194.192h64.964v27.531   c8.624-13.229,24.035-32.1,58.534-32.1c42.76,0,74.822,27.739,74.822,87.414V360.038z M230.883,193.99   c0.111-0.182,0.266-0.401,0.42-0.614v0.614H230.883z"></path></g>
-                        </svg>
-                    </a>
-                    <a class="simple-a" href="mailto:mattwright324+home@gmail.com">
-                        <img src="./img/Gmail_Icon.svg" height="30">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="column two-thirds mt-5">
-            <div class="columns twelve">
-                <h4 style="background-position: left;">Check out my projects</h4>
-                {% assign apps = site.data.about.apps %}
-                {% for app in apps %}
-                <div class="row">
-                    <div class="columns two" align="right">
-                        <a target="_blank" class="simple-a" href="{{ app.link }}">
-                            <img src="{{app.thumb}}" class="rounded float-left" height="64px" width="64px" alt="Thumbnail">
-                        </a>
-                    </div>
-                    <div class="columns ten mb-5">
-                        <a target="_blank" class="simple-a" href="{{ app.link }}">
-                            <h5 class="mb-0">{{ app.title }}</h5>
-                        </a>
-                        <small>{{ app.hist }}</small>
-                        <p style="margin-bottom:1.25em;">
-                            {{ app.desc }}
-                        </p>
-                        {% if app.media %}
-                        <ul style="margin-bottom:1.25em;">
-                            {% for media_link in app.media %}
-                            <li>
-                                <a target="_blank" href="{{media_link.link}}">
-                                    {{media_link.title}}
-                                </a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                        <div class="row text-right">
-                            <span class="tag gh-tag"><a href="{{app.repo}}">view on github</a></span>
-                            {% for tag in app.tags %}
-                            <span class="tag">{{tag}}</span>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div class="row mb-5 mt-5">
-        <div class="twelve columns" style="color:darkgray; text-align: center">
-            mattwright324 | 2023 | <a href="/">home</a> | <a href="https://github.com/mattwright324">github</a>
             <br>
-            <a href="https://github.com/mattwright324/mattwright324.github.io/blob/master/PRIVACY.md">privacy</a>
+            <h2>Contact</h2>
+            <div class="u-full-width" style="display:flex;justify-content: space-around; vertical-align: middle;">
+                <a class="simple-a" href="https://github.com/mattwright324">
+                    <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16"
+                         version="1.1" width="32" aria-hidden="true">
+                        <path fill="white" fill-rule="evenodd"
+                              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+                </a>
+                <a class="simple-a" href="https://stackoverflow.com/users/2650847/matthew-wright">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="38" viewBox="0 0 120 120">
+                        <style>.st0 {
+                            fill: #bcbbbb
+                        }
+
+                        .st1 {
+                            fill: #f48023
+                        }</style>
+                        <path class="st0" d="M84.4 93.8V70.6h7.7v30.9H22.6V70.6h7.7v23.2z"></path>
+                        <path class="st1"
+                              d="M38.8 68.4l37.8 7.9 1.6-7.6-37.8-7.9-1.6 7.6zm5-18l35 16.3 3.2-7-35-16.4-3.2 7.1zm9.7-17.2l29.7 24.7 4.9-5.9-29.7-24.7-4.9 5.9zm19.2-18.3l-6.2 4.6 23 31 6.2-4.6-23-31zM38 86h38.6v-7.7H38V86z"></path>
+                    </svg>
+                </a>
+                <a class="simple-a" href="https://www.linkedin.com/in/mattwright324/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 431 431" version="1.1" id="Capa_1"
+                         x="0px" y="0px" style="enable-background:new 0 0 430.117 430.118;" xml:space="preserve">
+                        <g><path id="LinkedIn__x28_alt_x29_" style="fill:#0077B5" d="M398.355,0H31.782C14.229,0,0.002,13.793,0.002,30.817v368.471   c0,17.025,14.232,30.83,31.78,30.83h366.573c17.549,0,31.76-13.814,31.76-30.83V30.817C430.115,13.798,415.904,0,398.355,0z    M130.4,360.038H65.413V165.845H130.4V360.038z M97.913,139.315h-0.437c-21.793,0-35.92-14.904-35.92-33.563   c0-19.035,14.542-33.535,36.767-33.535c22.227,0,35.899,14.496,36.331,33.535C134.654,124.415,120.555,139.315,97.913,139.315z    M364.659,360.038h-64.966V256.138c0-26.107-9.413-43.921-32.907-43.921c-17.973,0-28.642,12.018-33.327,23.621   c-1.736,4.144-2.166,9.94-2.166,15.728v108.468h-64.954c0,0,0.85-175.979,0-194.192h64.964v27.531   c8.624-13.229,24.035-32.1,58.534-32.1c42.76,0,74.822,27.739,74.822,87.414V360.038z M230.883,193.99   c0.111-0.182,0.266-0.401,0.42-0.614v0.614H230.883z"></path></g>
+                    </svg>
+                </a>
+                <a class="simple-a" href="mailto:mattwright324+home@gmail.com">
+                    <img src="img/gmail.svg" height="30">
+                </a>
+            </div>
+            <p style="text-align: center; margin-top: 10px; min-width: 300px">
+                Or
+                <a target="_blank" href="https://paypal.me/mattwright324"
+                   data-bs-toggle="tooltip" data-bs-placement="bottom"
+                   data-bs-custom-class="custom-tooltip"
+                   data-bs-title="My projects currently cost me around $40/month to run.">
+                    buy me a coffee <i class="bi bi-cup-hot"></i>!
+                </a>
+            </p>
+        </div>
+        <div class="col-md" style="border-left: 1px rgba(127,127,127,0.5) dashed; padding-left: 2em;">
+            <h2>Check out my Projects</h2>
+
+            <style>
+                .project {
+                    margin-bottom: 8px;
+                }
+
+                .project .it {
+                    display: flex;
+                    align-items: center;
+                }
+
+                .project .icon {
+                    width: 45px;
+                }
+
+                .project .title {
+                    font-size: 1.5em;
+                    margin-left: 10px;
+                }
+
+                .project .desc {
+                    margin-top: 5px;
+                    margin-left: 55px;
+                    position: relative;
+                    top: -12px;
+                }
+            </style>
+            {% assign groups = site.data.projects.groups %}
+            {% for group in groups %}
+            <br>
+            <h4>{{ group.title }}</h4>
+            {% assign projects = group.projects %}
+            {% for project in projects %}
+            <div class="project">
+                <a target="_blank" href="{{ project.link }}">
+                    <div class="it">
+                        <img src="{{ project.icon }}" class="icon rounded float-left" height="45px" width="45px"
+                             alt="Thumbnail">
+                        <span class="title">{{ project.title }}</span>
+                    </div>
+                </a>
+                <div class="desc">
+                    {{ project.desc }}
+                    <br>
+                    {% if project.repo %}
+                    <a target="_blank" href="{{ project.repo }}">
+                        <span class="badge text-bg-primary">view on github</span>
+                    </a>
+                    {% endif %}
+                    <span class="badge text-bg-secondary">{{repo}}</span>
+                    {% for tag in project.tags %}
+                    <span class="badge text-bg-secondary">{{tag}}</span>
+                    {% endfor %}
+                    {% if project.append %}{{ project.append }}{% endif %}
+                </div>
+            </div>
+            {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </div>
+<div class="row mb-5 mt-5">
+    <div class="twelve columns" style="color:darkgray; text-align: center">
+        mattwright324 | <script>document.write(new Date().getFullYear())</script> | <a href="/">home</a> | <a href="https://github.com/mattwright324">github</a>
+        <br>
+        <a href="https://github.com/mattwright324/mattwright324.github.io/blob/master/PRIVACY.md">privacy</a>
+    </div>
+</div>
+</body>
+</html>
