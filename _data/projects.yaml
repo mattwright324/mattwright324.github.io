@@ -157,10 +157,9 @@ groups:
 
       - title: jpowder-game
         link: https://github.com/mattwright324/jpowder-game
-        icon: https://raw.githubusercontent.com/mattwright324/jpowder-game/master/src/mattw/powder/img/icon.png
-        desc: <small class='text-muted'>Apr 2015, Dec 2017</small><br>
+        icon: https://raw.githubusercontent.com/mattwright324/jpowder-game/main/src/main/resources/icon.png
+        desc: <small class='text-muted'>Apr 2015, Aug 2024</small><br>
           Simple Java desktop application inspired by "The Powder Toy" game.
           Particle simulation with fluid, heat dissipation, and reactions.
         repo: https://github.com/mattwright324/jpowder-game
-        tags: [ desktop-app, java 8, javafx ]
-        append: <span class="badge text-bg-info" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Planned to convert to Java 11 + Gradle + Swing"><i class="bi bi-journal-text"></i></span>
+        tags: [ desktop-app, java 11, java-swing ]
