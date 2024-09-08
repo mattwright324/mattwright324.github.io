@@ -23,7 +23,7 @@ groups:
 
       - title: MW Comment Suite
         link: https://github.com/mattwright324/youtube-comment-suite/
-        icon: https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/master/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png
+        icon: https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/main/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png
         desc: <small class='text-muted'>Dec 2016 - Feb 2022 <span class="interlude">•</span>
               ~7.5k total downloads</small><br>
               Aggregate download YouTube comments very fast from numerous videos, channels, or playlists.
@@ -118,7 +118,7 @@ groups:
 
       - title: jports-ui
         link: https://github.com/mattwright324/jports-ui
-        icon: https://raw.githubusercontent.com/mattwright324/jports-ui/master/src/main/resources/io/mattw/jports/ui/icon.png
+        icon: https://raw.githubusercontent.com/mattwright324/jports-ui/main/src/main/resources/io/mattw/jports/ui/icon.png
         desc: <small class='text-muted'>Aug 2019</small><br>
               Simple Java desktop application to run multithreaded port scans on IP addresses/ranges and check for accessible web pages
         repo: https://github.com/mattwright324/jports-ui
@@ -127,7 +127,7 @@ groups:
 
       - title: jexplorer
         link: https://github.com/mattwright324/jexplorer
-        icon: https://github.com/mattwright324/jexplorer/raw/master/src/mattw/jexplorer/img/icon.png
+        icon: https://raw.githubusercontent.com/mattwright324/jexplorer/main/src/mattw/jexplorer/img/icon.png
         desc: <small class='text-muted'>Aug 2017</small><br>
               Simple Java desktop application to connect to multiple SMB and FTP devices on a network and browse file contents.
         repo: https://github.com/mattwright324/jexplorer
@@ -136,7 +136,7 @@ groups:
 
       - title: windows-smb-cracker
         link: https://github.com/mattwright324/windows-smb-cracker
-        icon: https://github.com/mattwright324/windows-smb-cracker/raw/master/src/mattw/cracker/smb/img/icon2.png
+        icon: https://raw.githubusercontent.com/mattwright324/windows-smb-cracker/main/src/mattw/cracker/smb/img/icon2.png
         desc: <small class='text-muted'>Dec 2017</small><br>
               Simple Java desktop application to remotely bruteforce logins on smb-enabled Windows machines. 
               Successfully cracked an old forgotten 10-year-old windows server in college.
