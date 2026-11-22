@@ -98,7 +98,7 @@ groups:
         repo: https://github.com/mattwright324/hll-sound-guide
         tags: [ web-app ]
 
-  - title: Other web apps
+  - title: Other projects
     projects:
       - title: Paint.NET Plugin Index
         wide: true
@@ -107,10 +107,21 @@ groups:
         icon: https://mattw.io/pdn-plugin-index/img/icon.png
         meta: Dec 2017 - Present • ~2k monthly visitors
         desc: Interactive site to search plugins for Paint.NET.
-              Collaboration with Scott Stringer (sigillatus) to fit the data he had been organizing for many years prior
-              into the app and then embed the app into his forum post.
+          Collaboration with Scott Stringer (sigillatus) to fit the data he had been organizing for many years prior
+          into the app and then embed the app into his forum post.
         repo: https://github.com/mattwright324/pdn-plugin-index
         tags: [ web-app ]
+
+      - title: Perry Co. R.R. & N&SV R.R. Geodata
+        link: https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata
+        icon: https://www.qgis.org/img/logosign.svg
+        meta: Apr 2018
+        desc: QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA.
+          Data files from the project provided for download.
+          Cropped and geo-referenced aerial photography from the 1930s using Paint.NET and QGIS against
+          present day Google Maps and like features.
+        repo: https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata
+        tags: [ gis data, maps ]
 
       - title: Bad Interface
         link: https://mattw.io/bad-ui/
@@ -127,19 +138,6 @@ groups:
         desc: Created to make it easier to determine hash types on the go without requiring the installation of Python.
         repo: https://github.com/mattwright324/hashID
         tags: [ web-app ]
-
-  - title: Other projects
-    projects:
-      - title: Perry Co. R.R. & N&SV R.R. Geodata
-        link: https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata
-        icon: https://www.qgis.org/img/logosign.svg
-        meta: Apr 2018
-        desc: QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA.
-          Data files from the project provided for download.
-          Cropped and geo-referenced aerial photography from the 1930s using Paint.NET and QGIS against
-          present day Google Maps and like features.
-        repo: https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata
-        tags: [ gis data, maps ]
 
       - title: jwhois
         link: https://github.com/mattwright324/jwhois
