@@ -1,4 +1,5 @@
 # Site Settings
+host          : 0.0.0.0
 data_dir      : _data
 locale        : "en-US"
 exclude       : [.idea, Gemfile, Gemfile.lock, README.md, LICENSE]

@@ -2,99 +2,111 @@ groups:
   - title: YouTube
     projects:
       - title: MW Metadata
+        featured: true
         link: https://mattw.io/youtube-metadata/
         icon: https://mattw.io/youtube-metadata/img/icon.png
-        desc: <small class='text-muted'>Jan 2020 - Present <span class="interlude">•</span> 
-              ~60k monthly visitors</small><br>
-              Search the YouTube API for video, playlist, and channel metadata.
+        meta: Jan 2020 - Present • ~60k monthly visitors
+        desc: Search the YouTube API for video, playlist, and channel metadata.
               Additionally search for metadata in bulk from a channel or playlist.
               Links to related resources to research deleted and private videos.
         repo: https://github.com/mattwright324/youtube-metadata
         tags: [ web-app, osint ]
 
-      - title: MW Geofind Location
+      - title: MW Geofind
+        featured: true
         link: https://mattw.io/youtube-geofind/location
         icon: https://mattw.io/youtube-geofind/img/icon.png
-        desc: <small class='text-muted'>Nov 2017 - Present <span class="interlude">•</span>
-              ~3k monthly visitors</small><br>
-              Search for YouTube videos near you or anywhere in the world with advanced search options.
+        meta: Nov 2017 - Present • ~3k monthly visitors
+        desc: Search for YouTube videos near you or anywhere in the world with advanced search options.
         repo: https://github.com/mattwright324/youtube-geofind
         tags: [ web-app, gis, osint, maps ]
 
+      - title: YT-API Proxy
+        link: https://github.com/mattwright324/youtube-api-proxy
+        icon: https://raw.githubusercontent.com/mattwright324/youtube-api-proxy/refs/heads/main/public/icon.png
+        meta: Dec 2024 - Present
+        desc: Advanced rate limiting, caching, and monitoring for YouTube Data API v3, the service backing my Metadata and Geofind tools.
+        repo: https://github.com/mattwright324/youtube-api-proxy
+        tags: [ web-app, nodejs ]
+
       - title: MW Comment Suite
-        link: https://github.com/mattwright324/youtube-comment-suite/
+        link: https://github.com/mattwright324/youtube-comment-suite
         icon: https://raw.githubusercontent.com/mattwright324/youtube-comment-suite/main/src/main/resources/io/mattw/youtube/commentsuite/img/icon.png
-        desc: <small class='text-muted'>Dec 2016 - Feb 2022 <span class="interlude">•</span>
-              ~13k total downloads</small><br>
-              Aggregate download YouTube comments very fast from numerous videos, channels, or playlists.
+        meta: Dec 2016 - Feb 2022 • ~13k total downloads
+        desc: Bulk-download comments from videos, channels, or playlists very fast with Java multi-threading.
         repo: https://github.com/mattwright324/youtube-comment-suite
         tags: [ desktop-app, osint, java 8, javafx ]
-        planned: Planned to convert to Java 11 + Gradle + Swing
+        planned: Planned to rewrite/upgrade
 
   - title: Hunger
     projects:
       - title: Hunger Maps
+        featured: true
         link: https://mattw.io/hunger-maps/
         icon: https://mattw.io/hunger-maps/icon.png
-        desc: <small class='text-muted'>July 2026 - Present</small><br>
-              Interactive map for the game Hunger showing locations where everything spawns, monster and loot drop rates, 
+        meta: July 2026 - Present
+        desc: Interactive map for the game Hunger showing locations where everything spawns, monster and loot drop rates, 
               custom hand-drawn dungeon map overlays, a custom drawn Chateau map, and more!
         repo: https://github.com/mattwright324/hunger-maps
         tags: [ web-app, maps ]
 
+      - title: Hunger Loot Simulator
+        link: https://mattw.io/hunger-loot-sim/
+        icon: https://mattw.io/hunger-loot-sim/img/T_UI_Icon_Discovering.png
+        meta: Aug 2026
+        desc: Simulate opening various loot sources to better understand loot drop rates.
+        # repo: https://github.com/mattwright324/hunger-loot-sim
+        tags: [ web-app ]
+
   - title: Hell Let Loose
     projects:
       - title: Maps Let Loose
+        featured: true
         link: https://mattw.io/maps-let-loose/
         icon: https://mattw.io/maps-let-loose/icon.png
-        desc: <small class='text-muted'>Nov 2022 - Present <span class="interlude">•</span>
-              ~3.5k monthly visitors</small><br>
-              Interactive map for the game Hell Let Loose that lets you pan around, zoom, add custom overlays,
+        meta: Nov 2022 - Present • ~3.5k monthly visitors
+        desc: Interactive map for the game Hell Let Loose that lets you pan around, zoom, add custom overlays,
               add dozens of map icons from the game, draw, customize strong-points circles and captured sectors, and so much more!
         repo: https://github.com/mattwright324/maps-let-loose
         tags: [ web-app, maps ]
 
       - title: HLL Server Browser (concept)
+        featured: true
         link: https://mattw.io/hll-server-browser/
         icon: https://mattw.io/hll-server-browser/icon.png
-        desc: <small class='text-muted'>Oct 2023 - Present</small><br>
-          Concept for how much better the in-game server browser could be.
+        meta: Oct 2023 - Present • ~1k monthly visitors
+        desc: Concept for how much better the in-game server browser could be.
           Advanced searching and filters, find a player, and breakdown stats of server/mode/player counts.
         repo: https://github.com/mattwright324/hll-server-browser
         tags: [ web-app ]
 
-      - title: HLL Engineer Calculator
-        link: https://mattw.io/hll-engineer-calc/
-        icon: https://mattw.io/hll-engineer-calc/icon.png
-        desc: <small class='text-muted'>Nov 2023</small><br>
-              Calculate how many supplies, people, and supply truck driving time is required to build your chosen number of buildables.
-        repo: https://github.com/mattwright324/hll-engineer-calc
+      - title: Strats Let Loose
+        link: https://mattw.io/strats-let-loose/
+        icon: https://mattw.io/strats-let-loose/icon.png
+        meta: Feb 2023 - Aug 2024
+        desc: Collection of in-game strategies, game quirks, and tricks with details on where and how to do it, many with recorded video examples.
+          However, most have since been patched, so it's now an archive of what used to be possible.
+        repo: https://github.com/mattwright324/strats-let-loose
         tags: [ web-app ]
 
       - title: HLL Sound Guide
         link: https://mattw.io/hll-sound-guide/
         icon: https://mattw.io/hll-sound-guide/icon.png
-        desc: <small class='text-muted'>Nov 2023</small><br>
-              Sample in-game sounds and test yourself if you can identify them.
+        meta: Nov 2023
+        desc: Sample in-game sounds and test yourself if you can identify them. In-game sound recordings of commander call-ins
+          and the vehicles from all 3 factions.
         repo: https://github.com/mattwright324/hll-sound-guide
-        tags: [ web-app ]
-
-      - title: HLL Map Rotation Generator
-        link: https://mattw.io/hll-map-rotation/
-        icon: https://mattw.io/hll-map-rotation/icon.png
-        desc: <small class='text-muted'>Jun 2023</small><br>
-          Assists with creating map rotation autosettings for the HLL Community RCON tool.
-        repo: https://github.com/mattwright324/hll-map-rotation
         tags: [ web-app ]
 
   - title: Other web apps
     projects:
       - title: Paint.NET Plugin Index
+        wide: true
+        featured: true
         link: https://forums.getpaint.net/topic/15260-plugin-index/
         icon: https://mattw.io/pdn-plugin-index/img/icon.png
-        desc: <small class='text-muted'>Dec 2017 - Present <span class="interlude">•</span>
-              ~2k monthly visitors</small><br>
-              Interactive site to search plugins for Paint.NET.
+        meta: Dec 2017 - Present • ~2k monthly visitors
+        desc: Interactive site to search plugins for Paint.NET.
               Collaboration with Scott Stringer (sigillatus) to fit the data he had been organizing for many years prior
               into the app and then embed the app into his forum post.
         repo: https://github.com/mattwright324/pdn-plugin-index
@@ -103,16 +115,16 @@ groups:
       - title: Bad Interface
         link: https://mattw.io/bad-ui/
         icon: https://mattw.io/bad-ui/favicon.png
-        desc: <small class='text-muted'>Dec 2019</small><br>
-              A collection of horrible user input implementations inspired by r/badUIbattles. Bad birthdate, phone, volume, etc...
+        meta: Dec 2019
+        desc: A collection of horrible user input implementations inspired by r/badUIbattles. Bad birthdate, phone, volume, etc...
         repo: https://github.com/mattwright324/bad-ui/
         tags: [ web-app ]
 
       - title: hashID
         link: https://mattw.io/hashID/
         icon: https://mattw.io/hashID/img/icon.png
-        desc: <small class='text-muted'>Sept 2018</small><br>
-              Created to make it easier to determine hash types on the go without requiring the installation of Python.
+        meta: Sept 2018
+        desc: Created to make it easier to determine hash types on the go without requiring the installation of Python.
         repo: https://github.com/mattwright324/hashID
         tags: [ web-app ]
 
@@ -121,8 +133,8 @@ groups:
       - title: Perry Co. R.R. & N&SV R.R. Geodata
         link: https://github.com/mattwright324/perryco-nsvrr-pcrr-geodata
         icon: https://www.qgis.org/img/logosign.svg
-        desc: <small class='text-muted'>Apr 2018</small><br>
-          QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA.
+        meta: Apr 2018
+        desc: QGIS mapping project tracing railroads torn up in the 1930s in Perry County, PA.
           Data files from the project provided for download.
           Cropped and geo-referenced aerial photography from the 1930s using Paint.NET and QGIS against
           present day Google Maps and like features.
@@ -132,16 +144,16 @@ groups:
       - title: jwhois
         link: https://github.com/mattwright324/jwhois
         icon: https://raw.githubusercontent.com/mattwright324/jwhois/main/src/main/resources/icon.png
-        desc: <small class='text-muted'>Mar 2024</small><br>
-              Simple Java desktop application to recursively run WHOIS queries on a given IP address or domain.
+        meta: Mar 2024
+        desc: Simple Java desktop application to recursively run WHOIS queries on a given IP address or domain.
         repo: https://github.com/mattwright324/jwhois
         tags: [ desktop-app, java 11, java-swing ]
 
       - title: jports-ui
         link: https://github.com/mattwright324/jports-ui
         icon: https://raw.githubusercontent.com/mattwright324/jports-ui/main/src/main/resources/io/mattw/jports/ui/icon.png
-        desc: <small class='text-muted'>Aug 2019</small><br>
-              Simple Java desktop application to run multithreaded port scans on IP addresses/ranges and check for accessible web pages
+        meta: Aug 2019
+        desc: Simple Java desktop application to run multithreaded port scans on IP addresses/ranges and check for accessible web pages
         repo: https://github.com/mattwright324/jports-ui
         tags: [ desktop-app, java 8, javafx, security ]
         planned: Planned to convert to Java 11 + Gradle + Swing
@@ -149,8 +161,8 @@ groups:
       - title: jexplorer
         link: https://github.com/mattwright324/jexplorer
         icon: https://raw.githubusercontent.com/mattwright324/jexplorer/main/src/mattw/jexplorer/img/icon.png
-        desc: <small class='text-muted'>Aug 2017</small><br>
-              Simple Java desktop application to connect to multiple SMB and FTP devices on a network and browse file contents.
+        meta: Aug 2017
+        desc: Simple Java desktop application to connect to multiple SMB and FTP devices on a network and browse file contents.
         repo: https://github.com/mattwright324/jexplorer
         tags: [ desktop-app, java 8, javafx, security ]
         planned: Planned to convert to Java 11 + Gradle + Swing
@@ -158,17 +170,17 @@ groups:
       - title: windows-smb-cracker
         link: https://github.com/mattwright324/windows-smb-cracker
         icon: https://raw.githubusercontent.com/mattwright324/windows-smb-cracker/main/src/main/resources/icon.png
-        desc: <small class='text-muted'>Dec 2017, Sept 2024</small><br>
-          Simple Java desktop application to remotely bruteforce logins on smb-enabled Windows machines.
-          Successfully cracked an old forgotten 10-year-old windows server in college.
+        meta: Dec 2017, Sept 2024
+        desc: Simple Java desktop application to remotely bruteforce logins on smb-enabled Windows machines.
+          Used to recover access to a forgotten legacy server in college.
         repo: https://github.com/mattwright324/windows-smb-cracker
         tags: [ desktop-app, java 11, java-swing, security ]
 
       - title: jpowder-game
         link: https://github.com/mattwright324/jpowder-game
         icon: https://raw.githubusercontent.com/mattwright324/jpowder-game/main/src/main/resources/icon.png
-        desc: <small class='text-muted'>Apr 2015, Aug 2024</small><br>
-          Simple Java desktop application inspired by "The Powder Toy" game.
+        meta: Apr 2015, Aug 2024
+        desc: Simple Java desktop application inspired by "The Powder Toy" game.
           Particle simulation with fluid, heat dissipation, and reactions.
         repo: https://github.com/mattwright324/jpowder-game
         tags: [ desktop-app, java 11, java-swing ]
