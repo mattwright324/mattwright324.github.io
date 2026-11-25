@@ -45,6 +45,7 @@ h1, h2, h3 { color: #fff; font-weight: 700; letter-spacing: -.02em; }
     width: 64px;
     height: 64px;
     border-radius: 16px;
+    background-color: #1A9EFE;
 }
 .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 1.25rem 0 .75rem; }
 .hero .lead { max-width: 38rem; color: var(--text); font-size: 1.15rem; }
